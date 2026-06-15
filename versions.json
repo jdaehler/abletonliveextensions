@@ -1,9 +1,9 @@
 {
-  "set-info": "1.0.4",
-  "scale-filter": "1.0.8",
-  "clip-info": "1.0.5",
-  "clip-colors": "1.0.4",
-  "bbc-sound-effects": "0.2.23",
-  "midi-invaders": "1.0.12",
-  "note-forge": "1.0.9"
+  "set-info": "1.0.5",
+  "scale-filter": "1.0.9",
+  "clip-info": "1.0.6",
+  "clip-colors": "1.0.5",
+  "bbc-sound-effects": "0.2.24",
+  "midi-invaders": "1.0.13",
+  "note-forge": "1.0.10"
 }
