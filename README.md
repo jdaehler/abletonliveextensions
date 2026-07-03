@@ -58,13 +58,4 @@ All extensions show up in the **right-click context menu** on the relevant track
 
 ## Versions
 
-| Extension | Version |
-|---|---|
-| MIDI Device Lookup | ![](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/jdaehler/abletonliveextensions/main/versions.json&query=$["midi-device-lookup"]&label=) |
-| Set Info | ![](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/jdaehler/abletonliveextensions/main/versions.json&query=$["set-info"]&label=) |
-| Scale Filter | ![](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/jdaehler/abletonliveextensions/main/versions.json&query=$["scale-filter"]&label=) |
-| Clip Info | ![](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/jdaehler/abletonliveextensions/main/versions.json&query=$["clip-info"]&label=) |
-| Clip Colors | ![](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/jdaehler/abletonliveextensions/main/versions.json&query=$["clip-colors"]&label=) |
-| Note Forge | ![](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/jdaehler/abletonliveextensions/main/versions.json&query=$["note-forge"]&label=) |
-| MIDI Invaders | ![](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/jdaehler/abletonliveextensions/main/versions.json&query=$["midi-invaders"]&label=) |
-| BBC SFX Browser | ![](https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/jdaehler/abletonliveextensions/main/versions.json&query=$["bbc-sound-effects"]&label=) |
+Current versions: [versions.json](https://github.com/jdaehler/abletonliveextensions/blob/main/versions.json)
