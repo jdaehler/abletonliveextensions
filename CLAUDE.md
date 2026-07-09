@@ -76,7 +76,7 @@ All UI text is in **English** (switched from German for international distributi
 - Footer CSS class: `.copyright` (different from `.footer` used in other extensions)
 
 ### midi-device-lookup
-- **manifest name:** `midi-device-lookup` | **version:** 1.0.15
+- **manifest name:** `midi-device-lookup` | **version:** 1.0.16
 - **Context menu:** right-click MidiTrack or AudioTrack → "MIDI Device Lookup (ARPMAN)"
 - **Command:** `mididevice.show`
 - **Dialog size:** 980 × 660
@@ -95,6 +95,10 @@ All UI text is in **English** (switched from German for international distributi
   - Section dividers in param table (dark rows, no section column)
   - Update Database button: fetches data from api.midi.guide in one request, sends JSON via `close_and_send("SAVE:...")`, extension saves and reopens
   - After update: compares new data against bundled `__DEVICE_DATA__`, injects `NEW_KEYS` set → green "✦ New (N)" chip + "NEW" badge on new devices in list
+  - NRPN filter chip: shows only devices with NRPN parameters
+  - Section chips in device view: one chip per section, click to filter table to that section
+  - Params count shown as green badge; NRPN shown as purple badge (right-aligned)
+  - "Device not listed?" contribute link shown when search returns no results
 - **Rebuild data:** `npm run fetch-data && npm run build:dev`
 - Param array format: `[section, name, desc, ccMsb, ccLsb, ccMin, ccMax, nrpnMsb, nrpnLsb, nrpnMin, nrpnMax, usage, notes]` — trailing empty fields trimmed
 - **CRITICAL:** `\n`/`\r` in TypeScript template literals become literal newline chars in HTML output → JS syntax error → nothing works. Always use `\\n`/`\\r` inside template literals that contain embedded JS strings.
