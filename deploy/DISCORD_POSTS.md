@@ -148,13 +148,16 @@ Made by ARPMAN / WireDrifter ( https://youtube.com/@WireDrifter)
 Right-click any MIDI or Audio track to browse CC and NRPN parameters for 400+ hardware devices — no manual PDFs needed.
 
 	• Full device list grouped by manufacturer (121 brands), searchable in real time
+	• NRPN filter chip — instantly show only devices with NRPN parameters (35 devices)
 	• CC and NRPN parameters per device with min/max ranges, descriptions, and sections
+	• Section chips in device view — jump directly to General / Filter / Oscillator / LFO etc.
 	• Filter within a device's parameters to zero in on what you need
 	• Click any parameter row to copy its CC/NRPN number directly to the clipboard
 	• Copy TSV button exports the full (or filtered) parameter list — paste into Excel/Numbers
 	• CSV ↗ button opens the raw source data for a device on GitHub
 	• Update Database button pulls the latest data from midi.guide in one request
 	• After updating, a "New (N)" chip highlights devices added since the previous version
+	• Device not listed? Direct link to contribute on midi.guide
 	• Version check — shows a notification when a new version is available
 
 Data: midi.guide (CC-BY-SA 4.0) — 399 devices, 121 manufacturers.
