@@ -10,7 +10,7 @@ Right-click context menus — no setup, no config, just install and go.
 ## Extensions
 
 ### 🎹 MIDI Device Lookup
-Browse CC and NRPN parameters for 399 hardware devices — no manual PDFs needed.  
+Browse CC and NRPN parameters for 400+ hardware devices — no manual PDFs needed.  
 Search by manufacturer or device name, filter parameters, copy CC numbers to clipboard.  
 [Download](https://github.com/jdaehler/abletonliveextensions/releases/download/midi-device-lookup/midi-device-lookup.ablx) · [Details](https://github.com/jdaehler/abletonliveextensions/releases/tag/midi-device-lookup) · Right-click any MIDI or Audio track
 
