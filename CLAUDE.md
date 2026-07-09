@@ -76,7 +76,7 @@ All UI text is in **English** (switched from German for international distributi
 - Footer CSS class: `.copyright` (different from `.footer` used in other extensions)
 
 ### midi-device-lookup
-- **manifest name:** `midi-device-lookup` | **version:** 1.0.16
+- **manifest name:** `midi-device-lookup` | **version:** 1.0.17
 - **Context menu:** right-click MidiTrack or AudioTrack → "MIDI Device Lookup (ARPMAN)"
 - **Command:** `mididevice.show`
 - **Dialog size:** 980 × 660
