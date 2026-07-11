@@ -160,8 +160,9 @@ Right-click any MIDI or Audio track to browse CC and NRPN parameters for 400+ ha
 	• Device not listed? Direct link to contribute on midi.guide
 	• Version check — shows a notification when a new version is available
 
-Data: midi.guide (CC-BY-SA 4.0) — 399 devices, 121 manufacturers.
+Data: midi.guide (CC-BY-SA 4.0) — 400 devices, 121 manufacturers.
 
+v1.0.18 — NRPN filter now stacks with search: activate NRPN, then type "Korg" to see only Korg devices with NRPN. Filter stays active while typing.
 v1.0.17 — NRPN filter chip now toggles (click again to deactivate).
 v1.0.16 — NRPN filter chip, NRPN + params badges, section chips per device, contribute link when device not found.
 v1.0.14 — Data source switched to midi.guide API: single request replaces ~400 CSV downloads, faster and more reliable updates.
