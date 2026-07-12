@@ -167,6 +167,8 @@ v1.0.17 — NRPN filter chip now toggles (click again to deactivate).
 v1.0.16 — NRPN filter chip, NRPN + params badges, section chips per device, contribute link when device not found.
 v1.0.14 — Data source switched to midi.guide API: single request replaces ~400 CSV downloads, faster and more reliable updates.
 
+Try it without installing: https://jdaehler.github.io/midi-device-lookup/
+
 Install: drag the .ablx file into Preferences → Extensions
 🔗 Download: https://github.com/jdaehler/abletonliveextensions/releases/download/midi-device-lookup/midi-device-lookup.ablx
 
