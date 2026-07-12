@@ -210,10 +210,10 @@ cp dist/extension.js "/Users/jd/Library/Application Support/Ableton/Extensions/a
 # Copy to deploy/
 cp <name>-*.ablx /Users/jd/Cowork/AbletonExtensions/deploy/<name>.ablx
 # Release backup (code + .ablx)
-mkdir -p /Users/jd/Cowork/AbletonExtensions/deploy/releases/<name>/v$VER
-cp src/extension.ts /Users/jd/Cowork/AbletonExtensions/deploy/releases/<name>/v$VER/
-cp dist/extension.js /Users/jd/Cowork/AbletonExtensions/deploy/releases/<name>/v$VER/
-cp <name>-$VER.ablx /Users/jd/Cowork/AbletonExtensions/deploy/releases/<name>/v$VER/
+mkdir -p /Users/jd/Cowork/AbletonExtensions/releases/v$VER
+cp src/extension.ts /Users/jd/Cowork/AbletonExtensions/releases/v$VER/
+cp dist/extension.js /Users/jd/Cowork/AbletonExtensions/releases/v$VER/
+cp <name>-$VER.ablx /Users/jd/Cowork/AbletonExtensions/releases/v$VER/
 # Upload to GitHub
 gh release upload <name> deploy/<name>.ablx --clobber --repo jdaehler/abletonliveextensions
 ```
