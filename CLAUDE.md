@@ -203,8 +203,18 @@ Builds all extensions, copies `.ablx` to `deploy/`, deploys to Ableton, uploads 
 ```bash
 cd /Users/jd/Cowork/AbletonExtensions/<name>
 npm run package
+# Get version
+VER=$(node -e "console.log(require('./package.json').version)")
+# Install locally in Ableton
 cp dist/extension.js "/Users/jd/Library/Application Support/Ableton/Extensions/arpman.<name>/dist/extension.js"
+# Copy to deploy/
 cp <name>-*.ablx /Users/jd/Cowork/AbletonExtensions/deploy/<name>.ablx
+# Release backup (code + .ablx)
+mkdir -p /Users/jd/Cowork/AbletonExtensions/deploy/releases/<name>/v$VER
+cp src/extension.ts /Users/jd/Cowork/AbletonExtensions/deploy/releases/<name>/v$VER/
+cp dist/extension.js /Users/jd/Cowork/AbletonExtensions/deploy/releases/<name>/v$VER/
+cp <name>-$VER.ablx /Users/jd/Cowork/AbletonExtensions/deploy/releases/<name>/v$VER/
+# Upload to GitHub
 gh release upload <name> deploy/<name>.ablx --clobber --repo jdaehler/abletonliveextensions
 ```
 Then sync versions.json (see Versioning section).
