@@ -39,6 +39,11 @@ MIDI note generator — configure pattern, rhythm, and velocity, write directly 
 Space Invaders played with your clip's active scale notes as targets.  
 [Download](https://github.com/jdaehler/abletonliveextensions/releases/download/midi-invaders/midi-invaders.ablx) · [Details](https://github.com/jdaehler/abletonliveextensions/releases/tag/midi-invaders) · Right-click any MIDI clip
 
+### 🐍 MIDI Snake
+The old snake game on a piano roll — left to right is time, bottom to top is pitch, and everything you eat is written into your clip. The round you play *is* the pattern.  
+Scale-aware · triad bonus · ping-pong tempo · autopilot demo mode · C64 and Arcade looks · high score table.  
+[Download](https://github.com/jdaehler/abletonliveextensions/releases/download/midi-snake/midi-snake.ablx) · [Details](https://github.com/jdaehler/abletonliveextensions/releases/tag/midi-snake) · Right-click any MIDI clip
+
 ### 🎧 BBC SFX Browser
 Search and download BBC Sound Effects directly into your session — as a clip or into Simpler.  
 Personal and educational use only (BBC RemArc licence).  
